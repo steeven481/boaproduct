@@ -1,0 +1,321 @@
+[
+ {
+  "id": "BP-2026-0142",
+  "customer": "Aïcha Mbarga",
+  "email": "aicha@exemple.fr",
+  "city": "Lyon",
+  "date": "2026-11-13",
+  "status": "Payée",
+  "carrier": "Colissimo",
+  "tracking": "6A004821000FR",
+  "total": 30.89,
+  "items": [
+   {
+    "productId": 1,
+    "qty": 2
+   },
+   {
+    "productId": 5,
+    "qty": 1
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-13",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0141",
+  "customer": "Lucas Tchoua",
+  "email": "lucas@exemple.fr",
+  "city": "Paris",
+  "date": "2026-11-13",
+  "status": "Préparée",
+  "carrier": "Chronopost",
+  "tracking": "XP004821137FR",
+  "total": 21.4,
+  "items": [
+   {
+    "productId": 2,
+    "qty": 1
+   },
+   {
+    "productId": 3,
+    "qty": 2
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-13",
+    "label": "Colis préparé"
+   },
+   {
+    "date": "2026-11-12",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0140",
+  "customer": "Sandrine Nkoa",
+  "email": "sandrine@exemple.fr",
+  "city": "Marseille",
+  "date": "2026-11-12",
+  "status": "Expédiée",
+  "carrier": "Colissimo",
+  "tracking": "6A004821274FR",
+  "total": 33.59,
+  "items": [
+   {
+    "productId": 8,
+    "qty": 1
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-12",
+    "label": "Pris en charge par le transporteur"
+   },
+   {
+    "date": "2026-11-11",
+    "label": "Colis préparé"
+   },
+   {
+    "date": "2026-11-10",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0139",
+  "customer": "Paul Essomba",
+  "email": "paul@exemple.fr",
+  "city": "Lille",
+  "date": "2026-11-12",
+  "status": "En livraison",
+  "carrier": "Colissimo",
+  "tracking": "6A004821411FR",
+  "total": 26.69,
+  "items": [
+   {
+    "productId": 4,
+    "qty": 3
+   },
+   {
+    "productId": 7,
+    "qty": 1
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-12",
+    "label": "En cours de livraison"
+   },
+   {
+    "date": "2026-11-11",
+    "label": "Pris en charge par le transporteur"
+   },
+   {
+    "date": "2026-11-10",
+    "label": "Colis préparé"
+   },
+   {
+    "date": "2026-11-09",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0138",
+  "customer": "Marie Fotso",
+  "email": "marie@exemple.fr",
+  "city": "Toulouse",
+  "date": "2026-11-11",
+  "status": "Livrée",
+  "carrier": "Chronopost",
+  "tracking": "XP004821548FR",
+  "total": 24.4,
+  "items": [
+   {
+    "productId": 9,
+    "qty": 1
+   },
+   {
+    "productId": 10,
+    "qty": 2
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-11",
+    "label": "Livré au client"
+   },
+   {
+    "date": "2026-11-10",
+    "label": "En cours de livraison"
+   },
+   {
+    "date": "2026-11-09",
+    "label": "Pris en charge par le transporteur"
+   },
+   {
+    "date": "2026-11-08",
+    "label": "Colis préparé"
+   },
+   {
+    "date": "2026-11-07",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0137",
+  "customer": "Jean Kamga",
+  "email": "jean@exemple.fr",
+  "city": "Nantes",
+  "date": "2026-11-11",
+  "status": "Livrée",
+  "carrier": "Colissimo",
+  "tracking": "6A004821685FR",
+  "total": 28.89,
+  "items": [
+   {
+    "productId": 1,
+    "qty": 1
+   },
+   {
+    "productId": 6,
+    "qty": 2
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-11",
+    "label": "Livré au client"
+   },
+   {
+    "date": "2026-11-10",
+    "label": "En cours de livraison"
+   },
+   {
+    "date": "2026-11-09",
+    "label": "Pris en charge par le transporteur"
+   },
+   {
+    "date": "2026-11-08",
+    "label": "Colis préparé"
+   },
+   {
+    "date": "2026-11-07",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0136",
+  "customer": "Nadège Ndzi",
+  "email": "nadège@exemple.fr",
+  "city": "Strasbourg",
+  "date": "2026-11-10",
+  "status": "Expédiée",
+  "carrier": "Chronopost",
+  "tracking": "XP004821822FR",
+  "total": 19.5,
+  "items": [
+   {
+    "productId": 5,
+    "qty": 2
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-10",
+    "label": "Pris en charge par le transporteur"
+   },
+   {
+    "date": "2026-11-09",
+    "label": "Colis préparé"
+   },
+   {
+    "date": "2026-11-08",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0135",
+  "customer": "Éric Manga",
+  "email": "eric@exemple.fr",
+  "city": "Bordeaux",
+  "date": "2026-11-10",
+  "status": "Payée",
+  "carrier": "Colissimo",
+  "tracking": "6A004821959FR",
+  "total": 29.19,
+  "items": [
+   {
+    "productId": 3,
+    "qty": 1
+   },
+   {
+    "productId": 2,
+    "qty": 1
+   },
+   {
+    "productId": 1,
+    "qty": 1
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-10",
+    "label": "Paiement confirmé"
+   }
+  ]
+ },
+ {
+  "id": "BP-2026-0134",
+  "customer": "Clarisse Onana",
+  "email": "clarisse@exemple.fr",
+  "city": "Rennes",
+  "date": "2026-11-09",
+  "status": "Livrée",
+  "carrier": "Colissimo",
+  "tracking": "6A004822096FR",
+  "total": 43.49,
+  "items": [
+   {
+    "productId": 8,
+    "qty": 1
+   },
+   {
+    "productId": 9,
+    "qty": 1
+   }
+  ],
+  "events": [
+   {
+    "date": "2026-11-09",
+    "label": "Livré au client"
+   },
+   {
+    "date": "2026-11-08",
+    "label": "En cours de livraison"
+   },
+   {
+    "date": "2026-11-07",
+    "label": "Pris en charge par le transporteur"
+   },
+   {
+    "date": "2026-11-06",
+    "label": "Colis préparé"
+   },
+   {
+    "date": "2026-11-05",
+    "label": "Paiement confirmé"
+   }
+  ]
+ }
+]

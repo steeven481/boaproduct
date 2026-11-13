@@ -1,59 +1,17 @@
-# Boaproduct
+# BoaProduct - POC Angular (site client + admin, sans base de données)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+Toutes les données viennent de fichiers JSON (`public/assets/data/`) et d'images SVG simulées (`public/assets/img/`).
+Aucun backend : panier, commandes et modifications admin restent en mémoire (le panier est aussi dans le localStorage).
 
-## Development server
+## Installation
+1. `npm i -g @angular/cli` puis `ng new boaproduct --style=css --routing=false --ssr=false`, puis `cd boaproduct`.
+2. Supprimer `src/app/app.ts` (ou app.component.*), `app.html`, `app.css`, `app.spec.ts` et `app.routes.ts` / `app.config.ts` générés.
+3. Copier dans votre projet : le dossier `src/` de cette archive (écrase `main.ts`, `styles.css`, `app/`) et le dossier `public/`.
+   - Angular 17 ou moins : placer `assets/` dans `src/` au lieu de `public/` (et vérifier `assets` dans angular.json).
+4. `ng serve` puis ouvrir http://localhost:4200
 
-To start a local development server, run:
+## Pages
+Client : `/` accueil · `/catalogue` · `/produit/1` · `/commande` (paiement simulé) · `/suivi` (essayez BP-2026-0141)
+Admin : `/admin` tableau de bord · `/admin/commandes` · `/admin/produits`
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Prérequis : Angular 17 ou plus (composants standalone, @if / @for).
