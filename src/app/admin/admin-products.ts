@@ -12,7 +12,7 @@ const blank=():Product=>({id:0,name:'',category:'Épices',type:'alimentaire',pri
 @for(p of list();track p.id){<tr><td><div class="mini"><img class="thumb" [src]="p.image" [alt]="p.name"><div><b>{{p.name}}</b><br><small class="mut">{{p.origin}} · {{p.weight}}</small></div></div></td><td>{{p.category}}</td><td><b>{{p.price|eur}}</b></td>
 <td style="min-width:120px"><div class="meter"><i [style.width.%]="pct(p)" [class.low]="p.stock<=10"></i></div><small class="mut">{{p.stock}} en stock</small></td>
 <td><span [class]="'st '+stCls(p)">{{p.stock>10?'Disponible':p.stock>0?'Stock bas':'Rupture'}}</span></td>
-<td style="white-space:nowrap"><button class="btn btn-ghost btn-sm" (click)="edit(p)">Modifier</button> <button class="btn btn-ghost btn-sm" (click)="del.set(p)">🗑</button></td></tr>}</tbody></table></div></div>
+<td style="white-space:nowrap"><button class="btn btn-ghost btn-sm" (click)="edit(p)">Modifier</button> <button class="btn btn-ghost btn-sm" (click)="del.set(p)">Supprimer</button></td></tr>}</tbody></table></div></div>
 
 <app-modal [open]="open()" [title]="form.id?'Modifier le produit':'Nouveau produit'" [wide]="true" (closed)="open.set(false)">
 <div class="field"><label>Nom du produit</label><input name="n" [(ngModel)]="form.name"></div>

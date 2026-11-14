@@ -19,7 +19,7 @@ import {ModalComponent,ProductCardComponent,QuickViewComponent} from '../shared/
 <section class="sec container"><div class="sec-head"><h2>Paiement et livraison de confiance</h2></div>
  <div class="partners"><span>Apple Pay</span><span>Mastercard</span><span>Visa</span><span>Carte Bancaire</span><span>Colissimo</span><span>Chronopost</span></div></section>
 <app-quick [product]="qv()" (closed)="qv.set(null)"/>
-<app-modal [open]="promo()" title="Offre de bienvenue 🎁" (closed)="closePromo()"><div class="success"><div class="ico">%</div><h3>-10 % sur votre première commande</h3><p class="mut" style="margin:10px 0 18px">Utilisez le code <b>BIENVENUE</b> au moment du paiement.</p>
+<app-modal [open]="promo()" title="Offre de bienvenue" (closed)="closePromo()"><div class="success"><div class="ico">%</div><h3>-10 % sur votre première commande</h3><p class="mut" style="margin:10px 0 18px">Utilisez le code <b>BIENVENUE</b> au moment du paiement.</p>
  <button class="btn btn-primary" (click)="s.toast('Code BIENVENUE copié');closePromo()">Copier le code</button></div></app-modal>`})
 export class Home implements OnInit{
  s=inject(Store);qv=signal<Product|null>(null);promo=signal(false);

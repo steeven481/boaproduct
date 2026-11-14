@@ -5,7 +5,7 @@ import {Store,Product} from '../core/store';
 import {ProductCardComponent,QuickViewComponent} from '../shared/shared';
 
 @Component({selector:'app-catalogue',standalone:true,imports:[FormsModule,ProductCardComponent,QuickViewComponent],template:`
-<div class="container sec"><div class="sec-head"><h1>Catalogue <small class="mut" style="font-size:15px">({{list().length}} produits)</small></h1><button class="btn btn-ghost fbtn" (click)="fo=!fo">⚙ Filtres</button></div>
+<div class="container sec"><div class="sec-head"><h1>Catalogue <small class="mut" style="font-size:15px">({{list().length}} produits)</small></h1><button class="btn btn-ghost fbtn" (click)="fo=!fo">Filtres</button></div>
 <div class="cat-layout"><aside class="card filters" [class.open]="fo">
  <div class="field"><label>Recherche</label><input [ngModel]="q()" (ngModelChange)="q.set($event)" placeholder="Nom du produit"></div>
  <div class="field"><label>Type</label><div class="seg">@for(t of types;track t){<button [class.on]="type()===t" (click)="type.set(t)">{{t}}</button>}</div></div>
@@ -14,7 +14,7 @@ import {ProductCardComponent,QuickViewComponent} from '../shared/shared';
  <button class="btn btn-ghost full" (click)="reset()">Réinitialiser</button></aside>
 <section><div class="toolbar"><select [ngModel]="sort()" (ngModelChange)="sort.set($event)"><option value="pop">Les mieux notés</option><option value="asc">Prix croissant</option><option value="desc">Prix décroissant</option></select></div>
  @if(list().length){<div class="grid-products">@for(p of list();track p.id){<app-product-card [p]="p" (quick)="qv.set($event)"/>}</div>}
- @else{<div class="card empty"><div style="font-size:44px">🔍</div><p>Aucun produit ne correspond à votre recherche.</p><button class="btn btn-primary" (click)="reset()">Voir tous les produits</button></div>}</section></div></div>
+ @else{<div class="card empty"><p>Aucun produit ne correspond à votre recherche.</p><button class="btn btn-primary" (click)="reset()">Voir tous les produits</button></div>}</section></div></div>
 <app-quick [product]="qv()" (closed)="qv.set(null)"/>`})
 export class Catalogue{
  s=inject(Store);fo=false;types=['Tous','alimentaire','non alimentaire'];qv=signal<Product|null>(null);

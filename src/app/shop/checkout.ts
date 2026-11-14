@@ -19,7 +19,7 @@ import {EurPipe,ModalComponent} from '../shared/shared';
   @for(c of carriers;track c.id){<label class="opt" [class.on]="carrierId===c.id"><input type="radio" name="car" [value]="c.id" [(ngModel)]="carrierId"><span class="grow"><b>{{c.name}}</b><br><small class="mut">{{c.delay}}</small></span><b>{{c.price|eur}}</b></label>}
   <button class="btn btn-primary full" [disabled]="!valid()" (click)="step.set(2)">Continuer vers le paiement</button>}
  @if(step()===2){<h3 style="margin-bottom:14px">Moyen de paiement</h3>
-  @for(m of methods;track m.id){<label class="opt" [class.on]="method===m.id"><input type="radio" name="pay" [value]="m.id" [(ngModel)]="method"><span style="font-size:22px">{{m.i}}</span><span class="grow"><b>{{m.n}}</b><br><small class="mut">{{m.d}}</small></span></label>}
+  @for(m of methods;track m.id){<label class="opt" [class.on]="method===m.id"><input type="radio" name="pay" [value]="m.id" [(ngModel)]="method"><span class="pm">{{m.i}}</span><span class="grow"><b>{{m.n}}</b><br><small class="mut">{{m.d}}</small></span></label>}
   @if(method!=='apple'){<div class="field"><label>Numéro de carte</label><input name="cn" [(ngModel)]="card.num" placeholder="4242 4242 4242 4242" maxlength="19"></div>
    <div class="two"><div class="field"><label>Expiration</label><input name="ce" [(ngModel)]="card.exp" placeholder="MM/AA"></div><div class="field"><label>CVC</label><input name="cc" [(ngModel)]="card.cvc" placeholder="123" maxlength="4"></div></div>}
   @else{<p class="mut">Vous validerez le paiement avec Face ID ou Touch ID (simulation).</p>}
@@ -34,7 +34,7 @@ export class Checkout{
  s=inject(Store);carriers=CARRIERS;step=signal(1);secure=signal(false);carrierId='cr';method='apple';
  f={name:'',email:'',address:'',zip:'',city:''};card={num:'',exp:'',cvc:''};
  done={id:'',total:0};
- methods=[{id:'apple',n:'Apple Pay',i:'🍎',d:'Paiement en un geste'},{id:'mc',n:'Mastercard / Visa',i:'💳',d:'Carte de crédit ou de débit'},{id:'cb',n:'Carte Bancaire (CB)',i:'🏦',d:'Réseau Cartes Bancaires'}];
+ methods=[{id:'apple',n:'Apple Pay',i:'Pay',d:'Paiement en un geste'},{id:'mc',n:'Mastercard / Visa',i:'MC',d:'Carte de crédit ou de débit'},{id:'cb',n:'Carte Bancaire (CB)',i:'CB',d:'Réseau Cartes Bancaires'}];
  car(){return CARRIERS.find(c=>c.id===this.carrierId)!}
  total(){return this.s.subtotal()+this.car().price}
  valid(){const f=this.f;return !!(f.name&&f.email.includes('@')&&f.address&&f.zip&&f.city)}
