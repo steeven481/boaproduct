@@ -9,7 +9,7 @@
     "type": "food",
     "price": 6.9,
     "weight": "100 g",
-    "origin": "Penja",
+    "origin": "Penja, Cameroun",
     "stock": 42,
     "rating": 4.9,
     "reviews": 128,
@@ -30,14 +30,14 @@
     "type": "food",
     "price": 8.5,
     "weight": "1 L",
-    "origin": "Région du Centre",
+    "origin": "Cameroun",
     "stock": 25,
     "rating": 4.6,
     "reviews": 64,
     "image": "https://enviesdafrique.fr/wp-content/uploads/2023/03/835F7774-7424-4AA1-B61F-BC1A84A6AD58-scaled-1.jpeg",
     "description": {
-      "fr": "Huile de palme rouge artisanale, au cœur du ndolé et des sauces traditionnelles.",
-      "en": "Artisanal red palm oil, at the heart of ndolé and traditional sauces."
+      "fr": "Huile de palme rouge artisanale, idéale pour le ndolé et les sauces traditionnelles.",
+      "en": "Artisanal red palm oil, ideal for ndolé and traditional sauces."
     }
   },
   {
@@ -50,14 +50,14 @@
     "type": "food",
     "price": 4.2,
     "weight": "1 kg",
-    "origin": "Région de l’Ouest",
+    "origin": "Cameroun",
     "stock": 60,
     "rating": 4.5,
     "reviews": 51,
     "image": "https://lemondeestbio.com/wp-content/uploads/2025/10/FARINE-DE-MANIOC-250G-1024x1024.png",
     "description": {
       "fr": "Farine de manioc finement moulue pour le bâton de manioc, le fufu et les galettes.",
-      "en": "Finely milled cassava flour for bâton de manioc, fufu and flatbreads."
+      "en": "Finely milled cassava flour for cassava sticks, fufu and flatbreads."
     }
   },
   {
@@ -70,27 +70,27 @@
     "type": "food",
     "price": 3.9,
     "weight": "150 g",
-    "origin": "Région du Sud-Ouest",
+    "origin": "Afrique de l’Ouest",
     "stock": 8,
     "rating": 4.7,
     "reviews": 92,
     "image": "https://www.kroger.com/product/images/xlarge/front/0074875700358",
     "description": {
       "fr": "Plantains mûrs frits, croustillants et légèrement sucrés.",
-      "en": "Ripe plantains fried until crisp, lightly sweet."
+      "en": "Ripe plantains fried until crisp and lightly sweet."
     }
   },
   {
     "id": 5,
     "name": {
-      "fr": "Café d’Ouest Cameroun",
+      "fr": "Café de l’Ouest Cameroun",
       "en": "West Cameroon coffee"
     },
     "category": "drinks",
     "type": "food",
     "price": 7.5,
     "weight": "250 g",
-    "origin": "Région de l’Ouest",
+    "origin": "Ouest, Cameroun",
     "stock": 33,
     "rating": 4.8,
     "reviews": 77,
@@ -111,13 +111,13 @@
     "type": "food",
     "price": 6.2,
     "weight": "250 g",
-    "origin": "Région du Sud",
+    "origin": "Afrique centrale",
     "stock": 29,
     "rating": 4.4,
     "reviews": 39,
     "image": "https://www.laboetgato.fr/585230-thickbox_default/cocoa-powder-250-g.jpg",
     "description": {
-      "fr": "Cacao pur, non sucré, issu de plantations familiales.",
+      "fr": "Cacao pur et non sucré, issu de plantations familiales.",
       "en": "Pure, unsweetened cocoa from family plantations."
     }
   },
@@ -131,7 +131,7 @@
     "type": "food",
     "price": 5.4,
     "weight": "500 g",
-    "origin": "Région du Nord",
+    "origin": "Afrique de l’Ouest",
     "stock": 48,
     "rating": 4.3,
     "reviews": 28,
@@ -151,14 +151,14 @@
     "type": "nonfood",
     "price": 24,
     "weight": "450 g",
-    "origin": "Bamenda",
+    "origin": "Bamenda, Cameroun",
     "stock": 12,
     "rating": 4.8,
     "reviews": 34,
     "image": "https://i.etsystatic.com/35094667/r/il/411928/5024807880/il_1140xN.5024807880_njih.jpg",
     "description": {
-      "fr": "Sac fait main par des artisans de Bamenda. Raphia naturel, doublure en coton.",
-      "en": "Handmade by artisans in Bamenda. Natural raffia, cotton lining."
+      "fr": "Sac fait main par des artisans de Bamenda. Raphia naturel et doublure en coton.",
+      "en": "Handmade by artisans in Bamenda. Natural raffia with a cotton lining."
     },
     "tag": "artisan"
   },
@@ -172,13 +172,13 @@
     "type": "nonfood",
     "price": 9.9,
     "weight": "200 g",
-    "origin": "Région du Nord",
+    "origin": "Afrique de l’Ouest",
     "stock": 5,
     "rating": 4.7,
     "reviews": 58,
     "image": "https://www.afrikabio.com/wp-content/uploads/2024/06/Beurre-de-Karite.jpg",
     "description": {
-      "fr": "Beurre de karité brut, non raffiné. Nourrit la peau et les cheveux.",
+      "fr": "Beurre de karité brut et non raffiné. Nourrit la peau et les cheveux.",
       "en": "Raw, unrefined shea butter. Nourishes skin and hair."
     }
   },
@@ -192,14 +192,316 @@
     "type": "nonfood",
     "price": 5,
     "weight": "150 g",
-    "origin": "Région du Littoral",
+    "origin": "Afrique de l’Ouest",
     "stock": 70,
     "rating": 4.2,
     "reviews": 22,
     "image": "https://lessecretsdefeefe.fr/wp-content/uploads/2023/03/1000072597-scaled.jpg",
     "description": {
       "fr": "Savon noir traditionnel au karité et aux cendres de plantain.",
-      "en": "Traditional black soap with shea and plantain ash."
+      "en": "Traditional black soap made with shea butter and plantain ash."
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "fr": "Banane plantain fraîche",
+      "en": "Fresh plantain"
+    },
+    "category": "fresh",
+    "type": "food",
+    "price": 3.5,
+    "weight": "1 kg",
+    "origin": "Afrique de l’Ouest et centrale",
+    "stock": 40,
+    "rating": 4.6,
+    "reviews": 31,
+    "image": "https://eshyma-market.com/wp-content/uploads/2025/10/Untitled-design.png",
+    "description": {
+      "fr": "Bananes plantains fraîches, idéales frites, bouillies, grillées ou cuisinées en accompagnement.",
+      "en": "Fresh plantains, ideal for frying, boiling, grilling or serving as a side dish."
+    },
+    "tag": "new"
+  },
+  {
+    "id": 12,
+    "name": {
+      "fr": "Gari de manioc",
+      "en": "Cassava gari"
+    },
+    "category": "flours",
+    "type": "food",
+    "price": 4.8,
+    "weight": "1 kg",
+    "origin": "Afrique de l’Ouest",
+    "stock": 45,
+    "rating": 4.6,
+    "reviews": 37,
+    "image": "https://www.insideafricashop.ch/cdn/shop/products/GariduGhana900g1_1024x1024@2x.jpg?v=1602285531",
+    "description": {
+      "fr": "Semoule de manioc fermentée et torréfiée, consommée en accompagnement ou préparée avec de l’eau, du lait ou du sucre.",
+      "en": "Fermented and roasted cassava granules, served as a side or prepared with water, milk or sugar."
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "fr": "Attiéké",
+      "en": "Attiéké"
+    },
+    "category": "flours",
+    "type": "food",
+    "price": 5.9,
+    "weight": "500 g",
+    "origin": "Côte d’Ivoire",
+    "stock": 36,
+    "rating": 4.8,
+    "reviews": 54,
+    "image": "https://enviesdafrique.fr/wp-content/uploads/2021/06/Attieke-deshydrate-3.jpeg",
+    "description": {
+      "fr": "Semoule de manioc fermentée, légère et savoureuse, traditionnellement servie avec du poisson, de la viande ou des légumes.",
+      "en": "Light and flavourful fermented cassava couscous, traditionally served with fish, meat or vegetables."
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "fr": "Graines d’egusi",
+      "en": "Egusi seeds"
+    },
+    "category": "spices",
+    "type": "food",
+    "price": 6.5,
+    "weight": "500 g",
+    "origin": "Afrique de l’Ouest et centrale",
+    "stock": 30,
+    "rating": 4.7,
+    "reviews": 42,
+    "image": "https://www.racines-shop.com/Files/130808/Img/04/0-TERRAEGUx1200.jpg",
+    "description": {
+      "fr": "Graines de courge africaines, aussi appelées pistaches africaines, utilisées moulues dans les sauces et soupes traditionnelles.",
+      "en": "African melon seeds, also known as African pistachio seeds, ground for traditional soups and sauces."
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "fr": "Ekang",
+      "en": "Ekang"
+    },
+    "category": "spices",
+    "type": "food",
+    "price": 7.2,
+    "weight": "250 g",
+    "origin": "Afrique centrale",
+    "stock": 24,
+    "rating": 4.5,
+    "reviews": 19,
+    "image": "https://marchetropical.ca/wp-content/uploads/2021/05/TROPICAL_EGUSI.jpg",
+    "description": {
+      "fr": "Ingrédient traditionnel d’Afrique centrale destiné à la préparation de sauces et de recettes locales.",
+      "en": "A traditional Central African ingredient used in local sauces and recipes."
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "fr": "Farine de maïs",
+      "en": "Corn flour"
+    },
+    "category": "flours",
+    "type": "food",
+    "price": 3.8,
+    "weight": "1 kg",
+    "origin": "Afrique",
+    "stock": 52,
+    "rating": 4.4,
+    "reviews": 26,
+    "image": "https://media.cdnws.com/_i/177617/708/2509/10/farine-de-mais.png",
+    "description": {
+      "fr": "Farine de maïs fine pour bouillies, pâtes, galettes et accompagnements traditionnels.",
+      "en": "Fine corn flour for porridge, doughs, flatbreads and traditional side dishes."
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "fr": "Farine de mil",
+      "en": "Millet flour"
+    },
+    "category": "flours",
+    "type": "food",
+    "price": 4.6,
+    "weight": "1 kg",
+    "origin": "Afrique de l’Ouest",
+    "stock": 38,
+    "rating": 4.5,
+    "reviews": 21,
+    "image": "https://seneafood.com/wp-content/uploads/2024/05/Farine-de-Mil.png",
+    "description": {
+      "fr": "Farine de mil adaptée aux bouillies, galettes et préparations traditionnelles africaines.",
+      "en": "Millet flour suitable for porridge, flatbreads and traditional African recipes."
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "fr": "Farine de banane plantain",
+      "en": "Plantain flour"
+    },
+    "category": "flours",
+    "type": "food",
+    "price": 5.5,
+    "weight": "500 g",
+    "origin": "Afrique de l’Ouest et centrale",
+    "stock": 34,
+    "rating": 4.6,
+    "reviews": 24,
+    "image": "https://epicerie.bmkparis.com/cdn/shop/files/Farinedebananeplantain_1.jpg?v=1699974897&width=1946",
+    "description": {
+      "fr": "Farine obtenue à partir de bananes plantains séchées, idéale pour bouillies, pâtisseries et préparations sans gluten.",
+      "en": "Flour made from dried plantains, ideal for porridge, baking and gluten-free recipes."
+    }
+  },
+  {
+    "id": 19,
+    "name": {
+      "fr": "Bâton de manioc (Bobolo)",
+      "en": "Cassava stick (Bobolo)"
+    },
+    "category": "flours",
+    "type": "food",
+    "price": 5.5,
+    "weight": "500 g",
+    "origin": "Cameroun",
+    "stock": 32,
+    "rating": 4.8,
+    "reviews": 46,
+    "image": "https://www.taiyat.fr/wp-content/uploads/2025/03/tai-yat-Bobolo.jpg",
+    "description": {
+      "fr": "Pâte de manioc fermentée et cuite, enveloppée traditionnellement dans des feuilles. Idéale avec les sauces, grillades et poissons.",
+      "en": "Fermented and cooked cassava dough, traditionally wrapped in leaves. Ideal with sauces, grilled dishes and fish."
+    }
+  },
+  {
+    "id": 20,
+    "name": {
+      "fr": "Poisson séché",
+      "en": "Dried fish"
+    },
+    "category": "fish",
+    "type": "food",
+    "price": 8.9,
+    "weight": "250 g",
+    "origin": "Afrique de l’Ouest",
+    "stock": 28,
+    "rating": 4.6,
+    "reviews": 33,
+    "image": "https://afrikanbasket.com/wp-content/uploads/2023/01/African-Dried-Fish-250-G.png",
+    "description": {
+      "fr": "Poisson séché au goût intense, destiné aux sauces, soupes et plats traditionnels africains.",
+      "en": "Flavourful dried fish for African sauces, soups and traditional dishes."
+    }
+  },
+  {
+    "id": 21,
+    "name": {
+      "fr": "Viande de bœuf fumée",
+      "en": "Smoked beef"
+    },
+    "category": "meats",
+    "type": "food",
+    "price": 12.9,
+    "weight": "500 g",
+    "origin": "Afrique",
+    "stock": 18,
+    "rating": 4.7,
+    "reviews": 27,
+    "image": "https://www.afrosmartshop.com/wp-content/uploads/2021/03/Viande-de-boeuf2-blanc.png",
+    "description": {
+      "fr": "Viande de bœuf fumée, savoureuse et prête à être intégrée aux sauces, soupes et plats mijotés.",
+      "en": "Flavourful smoked beef, ready for sauces, soups and slow-cooked dishes."
+    }
+  },
+  {
+    "id": 22,
+    "name": {
+      "fr": "Djansang en grains (Akpi)",
+      "en": "Whole djansang seeds (Akpi)"
+    },
+    "category": "spices",
+    "type": "food",
+    "price": 5.9,
+    "weight": "100 g",
+    "origin": "Afrique centrale et de l’Ouest",
+    "stock": 41,
+    "rating": 4.8,
+    "reviews": 52,
+    "image": "https://www.nkosiagro.com/cdn/shop/files/djangsang-en-grains-de-cote-divoire-vue-2-nkosi-agro.webp?v=1774098888&width=1200",
+    "description": {
+      "fr": "Graines aromatiques utilisées pour épaissir et parfumer les sauces, marinades et plats traditionnels.",
+      "en": "Aromatic seeds used to thicken and flavour sauces, marinades and traditional dishes."
+    },
+    "tag": "best"
+  },
+  {
+    "id": 23,
+    "name": {
+      "fr": "Feuilles de ndolé séchées",
+      "en": "Dried ndolé leaves"
+    },
+    "category": "vegetables",
+    "type": "food",
+    "price": 5.2,
+    "weight": "100 g",
+    "origin": "Cameroun",
+    "stock": 35,
+    "rating": 4.7,
+    "reviews": 44,
+    "image": "https://www.nkosiagro.com/cdn/shop/files/feuilles-de-ndole-sechees-number-one-vue-4-nkosi-agro.webp?v=1774104857&width=1200",
+    "description": {
+      "fr": "Feuilles amères de ndolé séchées, à réhydrater avant la préparation du ndolé et d’autres sauces africaines.",
+      "en": "Dried bitter ndolé leaves, to be rehydrated before preparing ndolé and other African sauces."
+    }
+  },
+  {
+    "id": 24,
+    "name": {
+      "fr": "Mélange de légumes séchés",
+      "en": "Dried vegetable mix"
+    },
+    "category": "vegetables",
+    "type": "food",
+    "price": 4.9,
+    "weight": "100 g",
+    "origin": "Afrique",
+    "stock": 43,
+    "rating": 4.4,
+    "reviews": 18,
+    "image": "https://mypatiss.com/wp-content/uploads/2023/05/assaisonemment-legumes-etal-des-epices-510x638.webp",
+    "description": {
+      "fr": "Mélange de légumes et d’herbes séchés pour enrichir les soupes, sauces, bouillons et plats mijotés.",
+      "en": "A mix of dried vegetables and herbs for soups, sauces, stocks and slow-cooked dishes."
+    }
+  },
+  {
+    "id": 25,
+    "name": {
+      "fr": "Cubes d’assaisonnement Maggi",
+      "en": "Maggi seasoning cubes"
+    },
+    "category": "seasonings",
+    "type": "food",
+    "price": 6.5,
+    "weight": "400 g",
+    "origin": "Afrique",
+    "stock": 55,
+    "rating": 4.5,
+    "reviews": 61,
+    "image": "https://online-africa.store/media/2025/10/paquet-de-100-cubes-maggi-400g.webp",
+    "description": {
+      "fr": "Cubes d’assaisonnement pour relever les sauces, soupes, bouillons, légumes, viandes et poissons. À utiliser avec modération selon les indications de l’emballage.",
+      "en": "Seasoning cubes for sauces, soups, stocks, vegetables, meat and fish. Use in moderation according to the package instructions."
     }
   }
 ]
