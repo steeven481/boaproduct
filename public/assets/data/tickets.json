@@ -1,0 +1,34 @@
+[
+ {
+  "id": "SAV-0021",
+  "orderId": "AG-2026-0138",
+  "productId": 4,
+  "customer": "Paul Essomba",
+  "reason": "damaged",
+  "message": "Le sachet est arrivé ouvert et les chips sont brisées.",
+  "date": "2026-11-12",
+  "status": "open"
+ },
+ {
+  "id": "SAV-0020",
+  "orderId": "AG-2026-0137",
+  "productId": 9,
+  "customer": "Marie Fotso",
+  "reason": "mismatch",
+  "message": "La texture ne correspond pas à la description.",
+  "date": "2026-11-10",
+  "status": "review"
+ },
+ {
+  "id": "SAV-0019",
+  "orderId": "AG-2026-0136",
+  "productId": 5,
+  "customer": "Jean Kamga",
+  "reason": "taste",
+  "message": "Le goût est plus amer que prévu.",
+  "date": "2026-11-08",
+  "status": "resolved",
+  "decision": "recommend",
+  "recommendedId": 6
+ }
+]

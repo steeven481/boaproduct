@@ -1,0 +1,6 @@
+Déposez ici vos vidéos MP4 (sans son, 10 à 20 secondes, 1080p, moins de 5 Mo) :
+hero.mp4      -> grande vidéo de l'accueil (marché, récolte, cuisine...)
+terroir.mp4   -> plantations de café et de cacao
+artisanat.mp4 -> artisans, raphia, poterie
+marche.mp4    -> bannière de l'espace pro (marché, grossistes)
+Sans fichier, un fond animé aux couleurs Afrogoût s'affiche à la place.

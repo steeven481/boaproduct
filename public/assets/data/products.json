@@ -1,147 +1,205 @@
 [
   {
     "id": 1,
-    "name": "Poivre de Penja IGP",
-    "category": "Épices",
-    "type": "alimentaire",
+    "name": {
+      "fr": "Poivre de Penja IGP",
+      "en": "Penja IGP pepper"
+    },
+    "category": "spices",
+    "type": "food",
     "price": 6.9,
     "weight": "100 g",
-    "origin": "Penja, Littoral",
+    "origin": "Penja",
     "stock": 42,
     "rating": 4.9,
     "reviews": 128,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_peppercorns.jpg",
-    "description": "Poivre noir d’exception, cultivé sur les terres volcaniques de Penja. Arôme puissant et floral.",
-    "badge": "Best-seller"
+    "image": "https://lepiceableu.com/wp-content/uploads/Poivre-noir-de-Penja-IGP-70g.jpeg",
+    "description": {
+      "fr": "Poivre noir d’exception, cultivé sur les sols volcaniques de Penja. Arôme puissant et floral.",
+      "en": "An exceptional black pepper grown on the volcanic soils of Penja. Powerful, floral aroma."
+    },
+    "tag": "best"
   },
   {
     "id": 2,
-    "name": "Huile de palme rouge",
-    "category": "Huiles",
-    "type": "alimentaire",
+    "name": {
+      "fr": "Huile de palme rouge",
+      "en": "Red palm oil"
+    },
+    "category": "oils",
+    "type": "food",
     "price": 8.5,
     "weight": "1 L",
     "origin": "Région du Centre",
     "stock": 25,
     "rating": 4.6,
     "reviews": 64,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_oil.jpg",
-    "description": "Huile de palme rouge artisanale, indispensable pour le ndolé et les sauces traditionnelles."
+    "image": "https://enviesdafrique.fr/wp-content/uploads/2023/03/835F7774-7424-4AA1-B61F-BC1A84A6AD58-scaled-1.jpeg",
+    "description": {
+      "fr": "Huile de palme rouge artisanale, au cœur du ndolé et des sauces traditionnelles.",
+      "en": "Artisanal red palm oil, at the heart of ndolé and traditional sauces."
+    }
   },
   {
     "id": 3,
-    "name": "Farine de manioc",
-    "category": "Farines",
-    "type": "alimentaire",
+    "name": {
+      "fr": "Farine de manioc",
+      "en": "Cassava flour"
+    },
+    "category": "flours",
+    "type": "food",
     "price": 4.2,
     "weight": "1 kg",
     "origin": "Région de l’Ouest",
     "stock": 60,
     "rating": 4.5,
     "reviews": 51,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cassava_flour.jpg",
-    "description": "Farine de manioc finement moulue pour le bâton de manioc, le fufu et les galettes."
+    "image": "https://lemondeestbio.com/wp-content/uploads/2025/10/FARINE-DE-MANIOC-250G-1024x1024.png",
+    "description": {
+      "fr": "Farine de manioc finement moulue pour le bâton de manioc, le fufu et les galettes.",
+      "en": "Finely milled cassava flour for bâton de manioc, fufu and flatbreads."
+    }
   },
   {
     "id": 4,
-    "name": "Chips de plantain",
-    "category": "Snacks",
-    "type": "alimentaire",
+    "name": {
+      "fr": "Chips de plantain",
+      "en": "Plantain chips"
+    },
+    "category": "snacks",
+    "type": "food",
     "price": 3.9,
     "weight": "150 g",
     "origin": "Région du Sud-Ouest",
     "stock": 8,
     "rating": 4.7,
     "reviews": 92,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Plantain_chips.jpg",
-    "description": "Plantains mûrs frits, croustillants et légèrement sucrés. Parfait pour l’apéritif.",
-    "badge": "Stock bas"
+    "image": "https://www.kroger.com/product/images/xlarge/front/0074875700358",
+    "description": {
+      "fr": "Plantains mûrs frits, croustillants et légèrement sucrés.",
+      "en": "Ripe plantains fried until crisp, lightly sweet."
+    }
   },
   {
     "id": 5,
-    "name": "Café d’Ouest Cameroun",
-    "category": "Boissons",
-    "type": "alimentaire",
+    "name": {
+      "fr": "Café d’Ouest Cameroun",
+      "en": "West Cameroon coffee"
+    },
+    "category": "drinks",
+    "type": "food",
     "price": 7.5,
     "weight": "250 g",
     "origin": "Région de l’Ouest",
     "stock": 33,
     "rating": 4.8,
     "reviews": 77,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roasted_coffee_beans.jpg",
-    "description": "Café arabica d’altitude, torréfié artisanalement. Notes de cacao et de fruits rouges.",
-    "badge": "Nouveau"
+    "image": "https://media.cdnws.com/_i/133776/2132/510/33/cafe-grain-250g-artisanale-cameroun-camayos.jpeg",
+    "description": {
+      "fr": "Café arabica d’altitude, torréfié artisanalement. Notes de cacao et de fruits rouges.",
+      "en": "High-altitude arabica, artisanally roasted. Notes of cocoa and red berries."
+    },
+    "tag": "new"
   },
   {
     "id": 6,
-    "name": "Cacao en poudre",
-    "category": "Boissons",
-    "type": "alimentaire",
+    "name": {
+      "fr": "Cacao en poudre",
+      "en": "Cocoa powder"
+    },
+    "category": "drinks",
+    "type": "food",
     "price": 6.2,
     "weight": "250 g",
     "origin": "Région du Sud",
     "stock": 29,
     "rating": 4.4,
     "reviews": 39,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cocoa_powder.jpg",
-    "description": "Cacao pur, non sucré, issu de plantations familiales. Idéal pour les boissons et pâtisseries."
+    "image": "https://www.laboetgato.fr/585230-thickbox_default/cocoa-powder-250-g.jpg",
+    "description": {
+      "fr": "Cacao pur, non sucré, issu de plantations familiales.",
+      "en": "Pure, unsweetened cocoa from family plantations."
+    }
   },
   {
     "id": 7,
-    "name": "Arachides grillées",
-    "category": "Snacks",
-    "type": "alimentaire",
+    "name": {
+      "fr": "Arachides grillées",
+      "en": "Roasted peanuts"
+    },
+    "category": "snacks",
+    "type": "food",
     "price": 5.4,
     "weight": "500 g",
     "origin": "Région du Nord",
     "stock": 48,
     "rating": 4.3,
     "reviews": 28,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roasted_peanuts.jpg",
-    "description": "Arachides grillées au feu de bois, légèrement salées."
+    "image": "https://seneafood.com/wp-content/uploads/2024/11/Arachides-Grillees-330-g.jpg",
+    "description": {
+      "fr": "Arachides grillées au feu de bois, légèrement salées.",
+      "en": "Wood-fire roasted peanuts, lightly salted."
+    }
   },
   {
     "id": 8,
-    "name": "Sac en raphia tressé",
-    "category": "Artisanat",
-    "type": "non alimentaire",
+    "name": {
+      "fr": "Sac en raphia tressé",
+      "en": "Woven raffia bag"
+    },
+    "category": "craft",
+    "type": "nonfood",
     "price": 24,
     "weight": "450 g",
     "origin": "Bamenda",
     "stock": 12,
     "rating": 4.8,
     "reviews": 34,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raffia.jpg",
-    "description": "Sac fait main par des artisans de Bamenda. Raphia naturel, doublure en coton.",
-    "badge": "Artisanat"
+    "image": "https://i.etsystatic.com/35094667/r/il/411928/5024807880/il_1140xN.5024807880_njih.jpg",
+    "description": {
+      "fr": "Sac fait main par des artisans de Bamenda. Raphia naturel, doublure en coton.",
+      "en": "Handmade by artisans in Bamenda. Natural raffia, cotton lining."
+    },
+    "tag": "artisan"
   },
   {
     "id": 9,
-    "name": "Beurre de karité",
-    "category": "Cosmétiques",
-    "type": "non alimentaire",
+    "name": {
+      "fr": "Beurre de karité",
+      "en": "Shea butter"
+    },
+    "category": "beauty",
+    "type": "nonfood",
     "price": 9.9,
     "weight": "200 g",
     "origin": "Région du Nord",
     "stock": 5,
     "rating": 4.7,
     "reviews": 58,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shea_butter.jpg",
-    "description": "Beurre de karité brut, non raffiné. Hydrate peau et cheveux.",
-    "badge": "Stock bas"
+    "image": "https://www.afrikabio.com/wp-content/uploads/2024/06/Beurre-de-Karite.jpg",
+    "description": {
+      "fr": "Beurre de karité brut, non raffiné. Nourrit la peau et les cheveux.",
+      "en": "Raw, unrefined shea butter. Nourishes skin and hair."
+    }
   },
   {
     "id": 10,
-    "name": "Savon noir africain",
-    "category": "Cosmétiques",
-    "type": "non alimentaire",
+    "name": {
+      "fr": "Savon noir africain",
+      "en": "African black soap"
+    },
+    "category": "beauty",
+    "type": "nonfood",
     "price": 5,
     "weight": "150 g",
     "origin": "Région du Littoral",
     "stock": 70,
     "rating": 4.2,
     "reviews": 22,
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/African_black_soap.jpg",
-    "description": "Savon noir traditionnel au karité et aux cendres de plantain."
+    "image": "https://lessecretsdefeefe.fr/wp-content/uploads/2023/03/1000072597-scaled.jpg",
+    "description": {
+      "fr": "Savon noir traditionnel au karité et aux cendres de plantain.",
+      "en": "Traditional black soap with shea and plantain ash."
+    }
   }
 ]

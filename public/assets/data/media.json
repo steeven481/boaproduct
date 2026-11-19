@@ -1,0 +1,17 @@
+{
+ "hero": {
+  "src": "assets/video/hero.mp4"
+ },
+ "terroir": {
+  "src": "assets/video/terroir.mp4"
+ },
+ "artisanat": {
+  "src": "assets/video/artisanat.mp4"
+ },
+ "marche": {
+  "src": "assets/video/marche.mp4"
+ },
+ "cuisine": {
+  "src": "assets/video/cuisine.mp4"
+ }
+}

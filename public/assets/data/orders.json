@@ -1,14 +1,15 @@
 [
  {
-  "id": "BP-2026-0142",
+  "id": "AG-2026-0142",
   "customer": "Aïcha Mbarga",
   "email": "aicha@exemple.fr",
   "city": "Lyon",
   "date": "2026-11-13",
-  "status": "Payée",
+  "status": "paid",
   "carrier": "Colissimo",
   "tracking": "6A004821000FR",
   "total": 30.89,
+  "kind": "b2c",
   "items": [
    {
     "productId": 1,
@@ -22,20 +23,21 @@
   "events": [
    {
     "date": "2026-11-13",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0141",
+  "id": "AG-2026-0141",
   "customer": "Lucas Tchoua",
   "email": "lucas@exemple.fr",
   "city": "Paris",
   "date": "2026-11-13",
-  "status": "Préparée",
+  "status": "prepared",
   "carrier": "Chronopost",
   "tracking": "XP004821137FR",
   "total": 21.4,
+  "kind": "b2c",
   "items": [
    {
     "productId": 2,
@@ -49,24 +51,25 @@
   "events": [
    {
     "date": "2026-11-13",
-    "label": "Colis préparé"
+    "code": "prepared"
    },
    {
     "date": "2026-11-12",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0140",
+  "id": "AG-2026-0140",
   "customer": "Sandrine Nkoa",
   "email": "sandrine@exemple.fr",
   "city": "Marseille",
   "date": "2026-11-12",
-  "status": "Expédiée",
+  "status": "shipped",
   "carrier": "Colissimo",
   "tracking": "6A004821274FR",
   "total": 33.59,
+  "kind": "b2c",
   "items": [
    {
     "productId": 8,
@@ -76,28 +79,29 @@
   "events": [
    {
     "date": "2026-11-12",
-    "label": "Pris en charge par le transporteur"
+    "code": "shipped"
    },
    {
     "date": "2026-11-11",
-    "label": "Colis préparé"
+    "code": "prepared"
    },
    {
     "date": "2026-11-10",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0139",
+  "id": "AG-2026-0139",
   "customer": "Paul Essomba",
   "email": "paul@exemple.fr",
   "city": "Lille",
   "date": "2026-11-12",
-  "status": "En livraison",
+  "status": "delivery",
   "carrier": "Colissimo",
   "tracking": "6A004821411FR",
   "total": 26.69,
+  "kind": "b2c",
   "items": [
    {
     "productId": 4,
@@ -111,32 +115,33 @@
   "events": [
    {
     "date": "2026-11-12",
-    "label": "En cours de livraison"
+    "code": "delivery"
    },
    {
     "date": "2026-11-11",
-    "label": "Pris en charge par le transporteur"
+    "code": "shipped"
    },
    {
     "date": "2026-11-10",
-    "label": "Colis préparé"
+    "code": "prepared"
    },
    {
     "date": "2026-11-09",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0138",
+  "id": "AG-2026-0138",
   "customer": "Marie Fotso",
   "email": "marie@exemple.fr",
   "city": "Toulouse",
   "date": "2026-11-11",
-  "status": "Livrée",
+  "status": "delivered",
   "carrier": "Chronopost",
   "tracking": "XP004821548FR",
   "total": 24.4,
+  "kind": "b2c",
   "items": [
    {
     "productId": 9,
@@ -150,36 +155,37 @@
   "events": [
    {
     "date": "2026-11-11",
-    "label": "Livré au client"
+    "code": "delivered"
    },
    {
     "date": "2026-11-10",
-    "label": "En cours de livraison"
+    "code": "delivery"
    },
    {
     "date": "2026-11-09",
-    "label": "Pris en charge par le transporteur"
+    "code": "shipped"
    },
    {
     "date": "2026-11-08",
-    "label": "Colis préparé"
+    "code": "prepared"
    },
    {
     "date": "2026-11-07",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0137",
+  "id": "AG-2026-0137",
   "customer": "Jean Kamga",
   "email": "jean@exemple.fr",
   "city": "Nantes",
   "date": "2026-11-11",
-  "status": "Livrée",
+  "status": "delivered",
   "carrier": "Colissimo",
   "tracking": "6A004821685FR",
   "total": 28.89,
+  "kind": "b2c",
   "items": [
    {
     "productId": 1,
@@ -193,36 +199,37 @@
   "events": [
    {
     "date": "2026-11-11",
-    "label": "Livré au client"
+    "code": "delivered"
    },
    {
     "date": "2026-11-10",
-    "label": "En cours de livraison"
+    "code": "delivery"
    },
    {
     "date": "2026-11-09",
-    "label": "Pris en charge par le transporteur"
+    "code": "shipped"
    },
    {
     "date": "2026-11-08",
-    "label": "Colis préparé"
+    "code": "prepared"
    },
    {
     "date": "2026-11-07",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0136",
+  "id": "AG-2026-0136",
   "customer": "Nadège Ndzi",
   "email": "nadège@exemple.fr",
   "city": "Strasbourg",
   "date": "2026-11-10",
-  "status": "Expédiée",
+  "status": "shipped",
   "carrier": "Chronopost",
   "tracking": "XP004821822FR",
   "total": 19.5,
+  "kind": "b2c",
   "items": [
    {
     "productId": 5,
@@ -232,28 +239,29 @@
   "events": [
    {
     "date": "2026-11-10",
-    "label": "Pris en charge par le transporteur"
+    "code": "shipped"
    },
    {
     "date": "2026-11-09",
-    "label": "Colis préparé"
+    "code": "prepared"
    },
    {
     "date": "2026-11-08",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0135",
+  "id": "AG-2026-0135",
   "customer": "Éric Manga",
   "email": "eric@exemple.fr",
   "city": "Bordeaux",
   "date": "2026-11-10",
-  "status": "Payée",
+  "status": "paid",
   "carrier": "Colissimo",
   "tracking": "6A004821959FR",
   "total": 29.19,
+  "kind": "b2c",
   "items": [
    {
     "productId": 3,
@@ -271,20 +279,21 @@
   "events": [
    {
     "date": "2026-11-10",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  },
  {
-  "id": "BP-2026-0134",
+  "id": "AG-2026-0134",
   "customer": "Clarisse Onana",
   "email": "clarisse@exemple.fr",
   "city": "Rennes",
   "date": "2026-11-09",
-  "status": "Livrée",
+  "status": "delivered",
   "carrier": "Colissimo",
   "tracking": "6A004822096FR",
   "total": 43.49,
+  "kind": "b2c",
   "items": [
    {
     "productId": 8,
@@ -298,23 +307,23 @@
   "events": [
    {
     "date": "2026-11-09",
-    "label": "Livré au client"
+    "code": "delivered"
    },
    {
     "date": "2026-11-08",
-    "label": "En cours de livraison"
+    "code": "delivery"
    },
    {
     "date": "2026-11-07",
-    "label": "Pris en charge par le transporteur"
+    "code": "shipped"
    },
    {
     "date": "2026-11-06",
-    "label": "Colis préparé"
+    "code": "prepared"
    },
    {
     "date": "2026-11-05",
-    "label": "Paiement confirmé"
+    "code": "paid"
    }
   ]
  }
